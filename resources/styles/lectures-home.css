@@ -43,54 +43,62 @@ h2 {
     margin-bottom: 15px;
 }
 
-.friend-container {
+.lecture-box {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-}
-
-.profile-box {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 25%);
-    grid-gap: 10px;
     border: 2px solid black;
     border-radius: 10px;
-    padding: 35px;
-    height: 200px;
+    width: 50%;
+    margin: 20px auto;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 1fr 3fr;
+    padding: 10px;
     box-shadow: 3px 6px;
 }
 
-.profile-box img {
-    width: 100px;
-    border-radius: 50%;
-    grid-row: 1 / span 1;
+.lecture-box .date-number {
+    font-size: 100px;
     grid-column: 1 / span 1;
+    grid-row: 1 / span 3; 
+    margin: 0px;
 }
 
-.profile-box .name {
-    grid-row: 3 / span 1;
+.lecture-box .date-month {
+    font-size: 25px;
     grid-column: 1 / span 1;
-    padding-left: 5px;
+    grid-row: 4 / span 1;
+    margin: 0px;
 }
 
-.profile-box .school {
+.lecture-box .lecture-info {
+    font-size: 16px;
+}
+
+.lecture-box .title {
+    grid-column: 2 / span 1;
     grid-row: 1 / span 1;
-    grid-column: 2 / span 3;
+    margin: 0px;
 }
 
-.profile-box .nation {
+.lecture-box .professor {
+    grid-column: 2 / span 1;
     grid-row: 2 / span 1;
-    grid-column: 2 / span 3;
+    margin: 0px;
 }
 
-.profile-box .lang {
+.lecture-box .university {
+    grid-column: 2 / span 1;
     grid-row: 3 / span 1;
-    grid-column: 2 / span 3;
+    margin: 0px;
 }
 
-.profile-box button {
-    margin-bottom: 5px;
+.lecture-box .lang {
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+    margin: 0px;
+}
+
+.lecture-box button {
+    margin-bottom: 10px;
     display: block;
     font-size: 16px;
     letter-spacing: 1px;
@@ -100,18 +108,10 @@ h2 {
     background-size: 200%;
     background-position: left;
     transition: background-position 0.5s;
+    grid-column: 2 / span 2;
+    grid-row: 5 / span 1;
 }
 
-.profile-box button:hover {
+.lecture-box button:hover {
     background-position: right;
-}
-
-.profile-box .zoom {
-    grid-row: 4 /span 1;
-    grid-column: 1 / span 2;
-}
-
-.profile-box .slack {
-    grid-row: 4 /span 1;
-    grid-column: 3 / span 2;
 }
