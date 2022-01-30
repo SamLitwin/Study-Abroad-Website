@@ -43,7 +43,13 @@ h2 {
     margin-bottom: 15px;
 }
 
-.club-container {
+#your-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#find-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
@@ -68,7 +74,7 @@ h2 {
     grid-column: 1 / span 1;
 }
 
-.club-box .category {
+.club-box .time {
     grid-row: 1 / span 2;
     grid-column: 2 / span 1;
 }
@@ -90,14 +96,14 @@ h2 {
     height: 50px;
 }
 
-.club-box .club-info h4 {
+.club-box h4 {
     font-size: 25px;
     padding: 5px;
     margin: 3px;
 }
 
 
-.club-box .club-info h5 {
+.club-box h5 {
     font-size: 15px;
     padding: 5px;
     margin: 3px;

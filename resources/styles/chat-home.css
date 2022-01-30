@@ -43,7 +43,13 @@ h2 {
     margin-bottom: 15px;
 }
 
-.friend-container {
+#friend-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#find-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
@@ -107,11 +113,16 @@ h2 {
 }
 
 .profile-box .zoom {
-    grid-row: 4 /span 1;
+    grid-row: 4 / span 1;
     grid-column: 1 / span 2;
 }
 
-.profile-box .slack {
-    grid-row: 4 /span 1;
+.profile-box .phone {
+    grid-row: 4 / span 1;
     grid-column: 3 / span 2;
+}
+
+.profile-box .find-friend {
+    grid-row: 4 / span 1;
+    grid-column: 2 / span 2;
 }

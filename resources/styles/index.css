@@ -102,7 +102,7 @@ button {
     letter-spacing: 1px;
     border: 2px solid;
     cursor: pointer;
-    background: linear-gradient(to right, transparent 50%, #ffb485 50%);
+    background: linear-gradient(to right, transparent 50%, #fccd04 50%);
     background-size: 200%;
     background-position: left;
     transition: background-position 0.5s;

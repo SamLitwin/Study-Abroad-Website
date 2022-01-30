@@ -33,6 +33,15 @@ header img {
     text-align: center;
 }
 
+#form-message-error {
+    display: none;
+}
+
+#form-message-error p {
+    color: red;
+    text-align: center;
+}
+
 #login-form label {
     font-size: 20px;
     margin: 10px;
