@@ -25,3 +25,5 @@ We learned a lot about how to put together a website from scratch. Both of us ha
 -Build a back-end and move user data there
 -Embed video chat into the website to improve our lecture and chat features
 -Create an administrator view for university officials to add students and create lectures/clubs
+
+## To Login to Abroad at Home, Use Username: jjones, Password: password
